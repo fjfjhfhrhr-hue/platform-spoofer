@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "id": "com.fshin.platformspoofer",
+  "name": "Platform Spoofer",
+  "version": "1.0.0",
+  "author": "fshin <1381008677301129257> (https://github.com/fshin \"GitHub\")",
+  "description": "Spoof your online platform status to appear on Desktop, Web, Meta Quest, or Console.",
+  "dependencies": {
+    "valenced.api": { "version": ">=1 <2" },
+    "discord": { "version": "*" }
+  },
+  "main": "src/index.tsx",
+  "dist": {
+    "script": "index.js"
+  }
+}
